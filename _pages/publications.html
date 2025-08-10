@@ -5,32 +5,318 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!-- Optional introduction or summary -->
+<div class="wordwrap">
+  You can find my complete list of scientific publications on platforms like   <a href="https://inspirehep.net/authors/2017835?ui-citation-summary=true">Inspirehep</a> or  <a href="https://scholar.google.com/citations?user=d5aKDhMAAAAJ&hl=pt-BR">Google Scholar</a>.
+  My ORCID ID is 0000-0003-3639-1181.
+</div>
 
-{% include base_path %}
+<p><strong>In numbers:</strong></p>
+<ul>
+  <li>12 scientific works: 11 peer-reviewed papers (10 in physics + 1 in medicine), 1 master thesis.</li>
+  <li>Posted in 2 arXiv categories: 9 works in [gr-qc], 1 work in [hep-th].</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+/* ----- Basic styling for the publication list ----- */
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.publication {
+  margin-bottom: 2rem;   /* space between items */
+  padding-bottom: 1rem;
+  /* Removed the per-publication border */
+  position: relative;
+}
+
+.pub-header {
+  display: flex;
+  flex-wrap: wrap;       /* allow wrapping on smaller screens */
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.pub-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-authors {
+  color: #aaa;
+  margin-bottom: -0.75rem;
+}
+
+.pub-info {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: -0.25rem;
+}
+.pub-info em {
+  font-style: italic;
+}
+
+.pub-links {
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.pub-links a {
+  margin-right: 1rem;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* ----- Add a black line above each year heading ----- */
+.year-heading {
+  border-top: 2px solid #000; /* adjust thickness/color as desired */
+  padding-top: 1rem;          /* space below the line */
+  margin-top: 3rem;           /* space above the line so it's separated nicely */
+}
+/* Underline the author's name */
+.highlight-author {
+  text-decoration: underline;
+}
+
+</style>
+
+<!-- 2025 Publications -->
+<h2 class="year-heading">2025</h2>
+<ul class="publication-list">
+  <!-- 1. Charged, rotating black holes in Einstein-Maxwell-dilaton theory -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Charged, rotating black holes in Einstein-Maxwell-dilaton theory</h3>
+    </div>
+    <div class="pub-authors">
+      #1 — Carlos Herdeiro,
+      Eugen Radu,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>
+    </div>
+    <div class="pub-info">
+      <br>
+      <em>Preprint:</em> June 18, 2025<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2506.15798" target="_blank">[arXiv]</a>
+    </div>
+  </li>
+</ul>
+
+<!-- 2024 Publications -->
+<h2 class="year-heading">2024</h2>
+<ul class="publication-list">
+  <!-- 2. Universal relations for rotating scalar and vector boson stars -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Universal relations for rotating scalar and vector boson stars</h3>
+    </div>
+    <div class="pub-authors">
+      #2 — Christoph Adam,
+      Jorge Castelo Mourelle,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>,
+      Carlos A.R. Herdeiro,
+      Andrzej Wereszczynski
+    </div>
+    <div class="pub-info">
+      <br>
+      <em>Published in:</em> Phys.Rev.D 110 (2024) 8, 084017<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2406.07613" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1103/PhysRevD.110.084017" target="_blank">[DOI]</a>
+    </div>
+  </li>
+
+  <!-- 3. Spinning Proca-Higgs balls, stars and hairy black holes -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Spinning Proca-Higgs balls, stars and hairy black holes</h3>
+    </div>
+    <div class="pub-authors">
+      #3 — Carlos Herdeiro,
+      Eugen Radu,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>
+    </div>
+    <div class="pub-info">
+    <br>
+      <em>Published in:</em> JCAP 07 (2024) 081<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2406.03552" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1088/1475-7516/2024/07/081" target="_blank">[DOI]</a>
+    </div>
+  </li>
+
+  <!-- 4. Self-interactions can (also) destabilize bosonic stars -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Self-interactions can (also) destabilize bosonic stars</h3>
+    </div>
+    <div class="pub-authors">
+      #4 — Marco Brito,
+      Carlos Herdeiro,
+      Nicolas Sanchis-Gual,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>,
+      Miguel Zilhão
+    </div>
+    <div class="pub-info">
+    <br>
+      <em>Published in:</em> Class.Quant.Grav. 41 (2024) 19, 195005<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2404.08740" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1088/1361-6382/ad7188" target="_blank">[DOI]</a>
+    </div>
+  </li>
+
+  <!-- 5. The non-spherical ground state of Proca stars -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">The non-spherical ground state of Proca stars</h3>
+    </div>
+    <div class="pub-authors">
+      #5 — C.A.R. Herdeiro, E. Radu, N. Sanchis-Gual, N.M. Santos, <span class="highlight-author">E. dos Santos Costa Filho</span>
+    </div>
+    <div class="pub-info"><br>
+      <em>Published in:</em> Phys.Lett.B 852 (2024) 138595<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2311.14800" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1016/j.physletb.2024.138595" target="_blank">[DOI]</a>
+    </div>
+  </li>
+</ul>
+
+<!-- 2023 Publications -->
+<h2 class="year-heading">2023</h2>
+<ul class="publication-list">
+
+  <!-- 6. Proca-Higgs balls and stars in a UV completion for Proca self-interactions -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Proca-Higgs balls and stars in a UV completion for Proca self-interactions</h3>
+    </div>
+    <div class="pub-authors">
+      #6 — Carlos Herdeiro,
+      Eugen Radu,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>
+    </div>
+    <div class="pub-info">
+      <br>
+      <em>Published in:</em> JCAP 05 (2023) 022<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2301.04172" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1088/1475-7516/2023/05/022" target="_blank">[DOI]</a>
+    </div>
+  </li>
+
+  <!-- 7. Collective coordinates for the hybrid model -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Collective coordinates for the hybrid model</h3>
+    </div>
+    <div class="pub-authors">
+      #7 — C.F.S. Pereira,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>,
+      T. Tassis
+    </div>
+    <div class="pub-info"><br>
+      <em>Published in:</em> Int.J.Mod.Phys.A 38 (2023) 01, 2350006<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2110.05658" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1142/S0217751X23500069" target="_blank">[DOI]</a>
+    </div>
+  </li>
+</ul>
+
+<!-- 2022 Publications -->
+<h2 class="year-heading">2022</h2>
+<ul class="publication-list">
 
 
+  <!-- 8. The relations between the multipole moments ... -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">
+        The relations between the multipole moments in axistationary electrovacuum spacetimes and the N-soliton solution
+      </h3>
+    </div>
+    <div class="pub-authors">
+      #8 — <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>, Angelo Guimarães, I. Cabrera-Munguia
+    </div>
+    <div class="pub-info">
+      <br>
+      <em>Published in:</em> Gen.Rel.Grav. 54 (2022) 1, 15<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2104.11049" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1007/s10714-022-02903-w" target="_blank">[DOI]</a>
+    </div>
+  </li>
+</ul>
 
+<!-- 2021 Publications -->
+<h2 class="year-heading">2021</h2>
+<ul class="publication-list">
+
+
+  <!-- 9. Calculation of multipole moments of axistationary electrovacuum spacetimes -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">Calculation of multipole moments of axistationary electrovacuum spacetimes</h3>
+    </div>
+    <div class="pub-authors">
+      #9 — Gyula Fodor, <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>, Betti Hartmann
+    </div>
+    <div class="pub-info">
+    <br>
+      <em>Published in:</em> Phys.Rev.D 104 (2021) 6, 064012<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2012.05548" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1103/PhysRevD.104.064012" target="_blank">[DOI]</a>
+    </div>
+  </li>
+</ul>
+
+<!-- 2020 Publications -->
+<h2 class="year-heading">2020</h2>
+<ul class="publication-list">
+
+
+  <!-- 10. Corotating binary systems of identical Kerr-Newman black holes -->
+  <li class="publication">
+    <div class="pub-header">
+      <h3 class="pub-title">
+        Corotating binary systems of identical Kerr-Newman black holes
+      </h3>
+    </div>
+    <div class="pub-authors">
+      #10 — I. Cabrera-Munguia,
+      <span class="highlight-author">Etevaldo dos Santos Costa Filho</span>,
+      Héctor H. Hernández,
+      David Vázquez-Valdez
+    </div>
+    <div class="pub-info">
+  <br>
+      <em>Published in:</em> Phys.Lett.B 811 (2020) 135917<br>
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2007.14683" target="_blank">[arXiv]</a>
+      <a href="https://doi.org/10.1016/j.physletb.2020.135917" target="_blank">[DOI]</a>
+    </div>
+  </li>
+</ul>
