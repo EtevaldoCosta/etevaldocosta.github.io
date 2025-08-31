@@ -27,7 +27,7 @@ author:
   pronouns         :  "he/him"
   bio              : "Whoever uses the spirit that is in him creatively is an artist.
 To make living itself an art, that is the goal."
-  location         : '<a href="https://en.wikipedia.org/wiki/Earth">Earth</a>'
+  location         : '<a href="https://en.wikipedia.org/wiki/Earth" style="text-decoration: none;">Earth</a>'
   employer         : "University of Aveiro"
   uri              : #URL
   email            : "etevaldo.s.costa@outlook.com"
