@@ -124,10 +124,11 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :"kWSRvul8FjNtRPTMV8KHVfB2st9R7BqK_uX6Oej_JkY"
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# SEO Related
+google_site_verification: "kWSRvul8FjNtRPTMV8KHVfB2st9R7BqK_uX6Oej_JkY"
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 
 # Social Sharing
