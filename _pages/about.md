@@ -9,7 +9,7 @@ redirect_from:
 
 I’m Etevaldo Costa, a final-year PhD student in Physics at the University of Aveiro in Portugal and a member of the [Gr@v group](http://gravitation.web.ua.pt/). I completeted my MSc at the Universidade de São Paulo and my BSc at the Universidade Federal do Espírito Santo, Brasil.
 
-My current research focuses on non-topological solitons and black holes in strong gravity regimes, from both mathematical and physical perspectives. I have extensive experience in numerical methods for elliptic PDEs and primarily use the professional CADSOL/FIDISOL solver (developed in Fortran), but I’m also familiar with shooting, spectral methods...
+I am interested in general questions in theoretical physics, from  non-topological solitons to black holes in strong gravity regimes, from both mathematical and physical perspectives. I have extensive experience in numerical methods for elliptic PDEs and primarily a finite difference method solver, but I’m also familiar with shooting, spectral methods...
 
 If you find anything that piques your interest, why not invite me for a coffee? I'm always open to discussing new ideas, starting collaborations, or just chatting about our common interests.
 
