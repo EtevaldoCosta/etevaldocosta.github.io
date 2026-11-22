@@ -14,9 +14,16 @@ redirect_from:
 </div>
 
 
+## Academic Experience
+
+- **Postdoctoral Researcher**, Universidade Federal do Espírito Santo (UFES), Brazil, 2026–present  
+  CNPq Junior Postdoctoral Fellow working on *Compact and exotic astrophysical objects as probes of new physics*.
+
+---
+
 ## Education
-- **Ph.D. in Physics (ongoing)**, University of Aveiro, 2021–present  
-  *Working under the MAP-Fis Ph.D. programme; research on gravitating solitons and compact objects.*  
+- **Ph.D. in Physics**, University of Aveiro, 2021–2026  
+  MAP-Fis doctoral thesis, *Bosonic exotic compact objects: construction and physical properties*.  
 - **M.S. in Physics**, University of São Paulo, 2018–2020  
   *Master’s thesis on constructing n-solitonic spacetimes using Sibgatullin’s integral method.*  
 - **B.S. in Physics**, Federal University of Espírito Santo, 2014–2018  
