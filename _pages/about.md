@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I’m Etevaldo Costa, a final-year PhD student in Physics at the University of Aveiro in Portugal and a member of the [Gr@v group](http://gravitation.web.ua.pt/). I completeted my MSc at the Universidade de São Paulo and my BSc at the Universidade Federal do Espírito Santo, Brasil.
+I’m Etevaldo Costa, a postdoctoral researcher at the Universidade Federal do Espírito Santo in Brazil. My interests in theoretical physics range from non-topological solitons to black holes in strong gravitational fields, from both mathematical and physical perspectives.
 
-I am interested in general questions in theoretical physics, from  non-topological solitons to black holes in strong gravity regimes, from both mathematical and physical perspectives. I have extensive experience in numerical methods for elliptic PDEs and primarily a finite difference method solver, but I’m also familiar with shooting, spectral methods...
+I have extensive experience solving elliptic partial differential equations, primarily with a finite-difference solver. I’m also familiar with shooting methods, spectral methods, and finite element methods. Beyond my work on elliptic equations, I’ve worked on eigenvalue problems such as the QMN problem. If you’re curious about how different numerical methods perform on the same physical problem, take a look at [our review of numerical methods for constructing boson stars](https://arxiv.org/abs/2609.24913).
 
-If you find anything that piques your interest, why not invite me for a coffee? I'm always open to discussing new ideas, starting collaborations, or just chatting about our common interests.
+I earned my PhD in physics at the University of Aveiro in Portugal, where I was a member of the [Gr@v group](http://gravitation.web.ua.pt/). Before that, I completed my MSc at the Universidade de São Paulo and my BSc at the Universidade Federal do Espírito Santo.
+
+If you find anything that piques your interest, why not invite me for a coffee? I’m always open to discussing new ideas, starting collaborations, or just chatting about our common interests.
 
 Thank you for visiting!
 
