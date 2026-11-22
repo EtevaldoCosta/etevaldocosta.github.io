@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Etevaldo Costa, a postdoctoral researcher at the Universidade Federal do Espírito Santo in Brazil. My interests in theoretical physics range from non-topological solitons to black holes in strong gravitational fields, from both mathematical and physical perspectives.
+I’m Etevaldo Costa, a postdoctoral researcher at the Universidade Federal do Espírito Santo in Brazil. My interests in theoretical physics range from non-topological solitons to black holes in strong gravity regime, from both mathematical and physical perspectives.
 
 I have extensive experience solving elliptic partial differential equations, primarily with a finite-difference solver. I’m also familiar with shooting methods, spectral methods, and finite element methods. Beyond my work on elliptic equations, I’ve worked on eigenvalue problems such as the QMN problem. If you’re curious about how different numerical methods perform on the same physical problem, take a look at [our review of numerical methods for constructing boson stars](https://arxiv.org/abs/2609.24913).
 
